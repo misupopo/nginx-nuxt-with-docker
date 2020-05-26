@@ -1,5 +1,5 @@
 import { mount } from 'vue-test-utils'
-import ramenList from '../../components/RamenList.vue'
+import ramenList from '../../src/components/RamenList.vue'
 
 // 直接test()を書くこともできるが、
 // テストの大まかな単位でdescribeして囲っておくとよさげ

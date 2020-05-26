@@ -1,5 +1,5 @@
 import { mount, shallow } from 'vue-test-utils'
-import index from '../../../pages/ramen/index.vue'
+import index from '../../../src/pages/ramen/index.vue'
 
 // 直接test()を書くこともできるが、
 // テストの大まかな単位でdescribeして囲っておくとよさげ
