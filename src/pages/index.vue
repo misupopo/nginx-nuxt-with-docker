@@ -13,6 +13,9 @@
                 {{ getLocaleData }}
             </div>
         </div>
+        <div>
+            {{  this.$route.params }}
+        </div>
         <hr>
         <div class="localeSwitchBox">
             <div class="localeSwitchBox__title">
@@ -126,6 +129,9 @@
             if (!process.client) {
                 return;
             }
+
+            console.log(111);
+            console.log(this.$route.params);
 
             this.rendered = true;
         },

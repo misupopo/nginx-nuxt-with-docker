@@ -12,7 +12,9 @@
     "start": "nuxt start --port 8080",
     "start:prd": "nuxt start --port 8080",
     "start:stg": "nuxt start --port 8080",
+    "start:server": "node server/index.js",
     "start:old": "cross-env NODE_ENV=production node build/main.js",
+    "start:backpack": "node server/index.js && nuxt start --port 8080",
     "test": "jest",
     "precommit": "npm run lint",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."

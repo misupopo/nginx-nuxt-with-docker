@@ -5,6 +5,7 @@
             {{ $t('ramen') }}
         </div>
         <h1>{{ message }}</h1>
+        <div>{{ getParams }}</div>
         <ramen-list/>
     </section>
 </template>
@@ -20,6 +21,11 @@
         data: function () {
             return {
                 message: 'ラーメンリスト'
+            }
+        },
+        computed: {
+            getParams() {
+                return this.$route.query;
             }
         },
         components: {ramenList}

@@ -13,8 +13,16 @@
 #
 #cat /etc/hosts
 
-## Running nginx
-nginx start
+#yarn install
 
-## Running vue
-yarn run start
+#yarn run build
+
+### Running vue
+#yarn run start:backpack
+
+#cp -r /app /var/www/html
+
+## Running nginx
+nginx
+
+tail -F anything
